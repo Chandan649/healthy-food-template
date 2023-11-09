@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: skyblue;
+}
+.template{
+    width: 960px;
+    margin: 0 auto;
+}
+.header-section{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 4px;
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    float:left;
+    margin-left: 192px;
+}
+.menu ul{}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    line-height: 60px;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+.social-icon {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.social-icon i{
+    color:white;
+    margin-left: 15px;
+    line-height: 60px;
+}
+.banner-section{
+    height: 400px;
+    width: 100%;
+    background-image: url(images\ \(3\).jpeg);
+    color:black;
+}
+.banner-content{
+    margin-left: 50px;
+    padding-top: 140px;
+}
+.banner-content h2{
+    font-size:40px;
+    padding-bottom: 10px;
+}
+.banner-content p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.banner-content button{
+    background-color: gray;
+    padding: 7px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner-content button:hover{
+    background-color: blue;
+}
+.about-section{
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    padding: 50px 0px;
+}
+.about-left{
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+.about-left h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.about-left p{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.about-left button{
+    border:2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about-right{
+    width: 40%;
+    float: left;
+}
+.about-right img{
+    height: 300px;
+    width: 400px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.text-section{
+    background-color: black;
+    width:100%;
+    height: 200px;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding:50px 0px ;
+
+}
+
+
+.container-box{
+    background-color: #fff;
+    width: 100%;
+    height: 268px;
+
+}
+
+.box1{
+    float: left;
+    padding-left: 30px;
+    width: 30%;
+    height: 40%;
+    padding-top:5px ;
+}
+.box2{
+    float: left;
+    padding-left: 30px;
+    width: 30%;
+    height: 40%;
+    padding-top:5px ;
+
+}
+.box3{
+    float: left;
+    padding-left: 30px;
+    width: 30%;
+    height: 40%;
+    padding-top:5px ;
+
+}
+.contact-section{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    padding: 50px 0px;
+}
+.contact-left{
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    color: white;
+}
+.form-part{
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+
+.f1{
+    float: left;
+    padding: 25px 30px;
+    width: 45%;
+
+}
+.contact-right{
+    width: 50%;
+    float: left;
+}
+.form-part-msg textarea{
+    width: 472px;
+    height: 200px;
+}
+.form-part-msg{
+    margin-top: 20px;
+}
+.form-part input[type="text"]{
+    width: 200px;
+    padding: 10px;
+}
+.form-part input[type="email"]{
+    width: 200px;
+    padding: 10px;
+}
+
